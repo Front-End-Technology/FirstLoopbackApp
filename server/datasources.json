@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:root@localhost/nodeapp",
+    "database": "nodeapp",
+    "password": "root",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "mongodb": {
+    "host": "demo.strongloop.com",
+    "port": 27017,
+    "url": "mongodb://demo:L00pBack@demo.strongloop.com:27017/getting_started_intermediate",
+    "database": "getting_started_intermediate",
+    "password": "L00pBack",
+    "name": "mongodb",
+    "user": "demo",
+    "connector": "mongodb"
+  }
+}
